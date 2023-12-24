@@ -1,0 +1,20 @@
+{
+  "Comment for the ErrorsToCheck array": "Array with the errors the server encounter that would need a restart. ### is used as a wildcard",
+  "ErrorsToCheck": [
+    "Unable to find MiniDumpWriteDump",
+    "Ending multiplayer",
+    "[TCP CLIENT] [R14NETCLIENT] connection to ### failed",
+    "[WARNING] Dedicated: registration failed ###"
+  ],
+  "LinesToExclude" :[
+    "Ending multiplayer gameplay"
+  ],
+  "ShutdownMessages":[
+  "[ECHORELAY.GAMESERVER] Signaling end of session",
+  "[NSLOBBY] registration successful",
+  "[NETGAME] NetGame switching state (from logged in, to lobby)",
+  "[TCP CLIENT] [R14NETCLIENT] connection to ### /config closed"
+  ],
+  "RelayIP": "10.1.60.10:7777",
+  "EchoArgs": "-noovr -server -headless -timestep 120 -fixedtimestep -nosymbollookup -noconsole"
+}
